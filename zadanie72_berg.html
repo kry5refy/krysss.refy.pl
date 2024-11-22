@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td><b>Kolor tła</b></td>
+            <td>selektor {background-color: kolor;}
+                <br><br>
+                body {
+                    background-color: red;
+                }
+            </td>
+        </tr>
+        <tr>
+            <td><b>Tło obrazkowe</b></td>
+            <td>selektor {background-image: url(adres);} 
+                <br><br> 
+                background-image: url("file:///c:/CSS/_rozwiazanie/tla_marginesy/grafiki/tlo_1.jpg");
+
+            </td>
+        </tr>
+        <tr>
+            <td><b>Powtarzanie tła</b></td>
+            <td>selektor {background-repeat: powtarzanie} 
+                <br><br>
+                body {background-repeat: repeat}
+                <br><br>
+                powtarzanie:
+                "repeat" - jednocześnie w pionie i poziomie - domyślnie
+                "repeat-x" - w poziomie
+                "repeat-y" - w pionie
+                "no-repeat" - pojedynczy obrazek - bez powtarzania - w górnym-lewym rogu
+            </td>
+        </tr>
+        <tr>
+            <td><b>Pozycja tła</b></td>
+            <td> selektor {background-position: pozycja;}
+                <br><br>
+                body {background-position: center}
+                <br><br>
+                <table border="1">
+                    <tr>
+                        <td> pozycja:
+                            jedna wartość:</td>
+                        <td>jednostki miary:</td>
+                    </tr>
+                    <tr>
+                        <td>"center" - obrazek na środku (w centrum)
+                            "left" - obrazek po lewej
+                            "right" - obrazek po prawej
+                            "top" - obrazek na górze
+                            "bottom" - obrazek na dole
+                            jednostki miary - odległość od lewej 
+                           krawędzi
+                            dwie wartości (oddzielone spacją):
+                            "left top" - lewy-górny róg
+                            "left bottom" - lewy-dolny róg
+                            "right top" - prawy-górny róg
+                            "right bottom" - prawy-dolny róg
+                            dwie jednostki miary - pierwsza z nich 
+                           oznacza odległość od lewej krawędzi, a 
+                           druga - od górnej</td>
+                           <td>piksele - px
+                            punkty edytorskie - pt
+                            wysokość litery "x" - ex
+                            wysokość aktualnej czcionki - em
+                            centymetry lub milimetry - cm, mm
+                            części dziesiętne centymetra pisane z 
+                           kropką np.: 0.5cm
+                            procent wielkości nadrzędnej - %
+                            cale - in (1in=2.54cm)</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Zaczepianie tła</b></td>
+            <td> selektor {background-attachment: zaczepienie;}
+                <br><br>
+                body {background-attachment: scroll}
+                <br><br>
+                zaczepienie:
+                 "scroll" - przewijanie tła (domyślnie)
+                 "fixed" - tło nieruchome
+            </td>
+        </tr>
+        <tr>
+            <td><b>Łączenie atrybutów tła</b></td>
+            <td>selektor {background: wartości atrybutów;}
+                <br><br>
+                p {color: #800000; background: #00ff00 url(../../grafiki/cwiczenie_13/tlo_css.jpg) norepeat scroll center;}
+                <br><br>
+                wartości atrybutów:
+                 kolor tła
+                 tło obrazkowe
+                 powtarzanie tła
+                 zaczepienie tła
+                 pozycja tła
+            </td>
+        </tr>
+        <tr>
+            <td><b>Gradient liniowy</b></td>
+            <td>selektor { background: linear-gradient(kierunek, kolor1 odległość1, kolor2 odległość2...) }
+                <br><br>
+                background: linear-gradient(to bottom, black 0%, white 100%)
+                <br><br>
+                Kolor1 odległość1, kolor2 odległość2... - kolejne kolory i ich odległości na linii przejścia 
+                gradientu. Obowiązkowo trzeba podać przynajmniej dwie pary "kolor odległość". Każda taka 
+                para jest rozdzielona od kolejnej znakiem przecinka. Wielokropek (czyli "...") na końcu 
+                należy usunąć. Określenie odległości kolorów nie jest obowiązkowe - wtedy podane barwy 
+                zostaną rozłożone równomiernie w gradiencie.
+            </td>
+        </tr>
+        <tr>
+            <td><b>Gradient promienisty</b></td>
+            <td>selektor { background: radial-gradient(kształt rozmiar at pozycja, kolor1 odległość1, kolor2 
+                odległość2...) }
+            <br><br>
+            p {background: radial-gradient(at 50% 110%, lightskyblue 40%, fuchsia, purple, blue, lime, yellow, orange, 
+                red, lightskyblue 60%)}
+                <br><br>
+                Jako kształ należy wpisać:
+ circle - okrąg (domyślnie gdy jako rozmiar podano pojedynczy promień, określony w 
+jednostkach długości, a nie w procentach)
+ ellipse - elipsa
+ <br><br>
+Rozmiar można ustalić na trzy sposoby:
+ słowa kluczowe:
+ closest-side - gradient będzie się rozchodził do najbliższej krawędzi elementu
+ farthest-side - do najdalszej krawędzi
+ closest-corner - do najbliższego narożnika
+ farthest-corner - do najdalszego narożnika (domyślnie)
+ promień - podany za pomocą jednostek długości lub procentowo
+ poziom pion - poziomy i pionowy promień elipsy, określony za pomocą jednostek 
+długości lub procentowo
+        </td>
+        </tr>
+    </table>
+<!-- Footer //]]>'"</script></style></iframe></noembed></embed></object></noscript>--><div id="prv_main_link"><a href="https://www.prv.pl" title="darmowy hosting">Darmowy hosting</a> zapewnia PRV.PL</div><script type="text/javascript" src="/prv_site_config_values.js"></script><script type="text/javascript" src="//hosting2.keep.pl/prv_hosting_footer.js"></script></body>
+</html>

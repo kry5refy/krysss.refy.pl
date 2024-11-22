@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <style>
+         h4{
+             text-indent: 20px;
+         }
+     </style> 
+     <style>
+         h3{
+            text-indent: 20px;
+            line-height: 1cm;
+            word-spacing: 1cm;
+            letter-spacing: 1mm;
+            color: tomato;
+         }
+     </style>
+</head>
+<body>
+    <ol>
+        <li><h1>Jakie standardowo dostępne są czcionki w systemie Windows( trzy, użyj wyliczenia z
+            kwadratem)</h1></li>
+                <ul type = square>
+                    <li>Arial</li>
+                    <li>Times New Roman</li>
+                    <li>Verdana</li>
+                </ul>
+            <li><h1>Jakich czcionek dodatkowo dostarcza Internet Explorerem ( cztery, użyj wyliczenia z
+            okręgiem nie kołem) .</h1></li>
+                <ul type = circle>
+                    <li>Quando</li>
+                    <li>Lato</li>
+                    <li>Open Sans</li>
+                    <li>Cabin</li>
+                </ul>
+            <li><h1>Wymień rodziny ogólne ( pięć, użyj wyliczenia z kołem, podkreślenie, przykłady) .</h1></li>
+                <u><ul type = disc>
+                    <li>Arial</li>
+                    <li>Cambria</li>
+                    <li>Georgia</li>
+                    <li>Impact</li>
+                    <li>Verdana</li>
+                </ul></u>
+            <li><h1>Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy( deklarujemy rodziny
+            czcionek)</h1></li>
+            Polecenie font-family służy do nadawania nazwy załadowanemu fontowi, którego będziemy używać następnie do określania kroju w elementach. Natomiast w src określamy ścieżkę do pliku oraz jego format. Kolejne znane już nam z CSSa polecenia służą do określenia pogrubienia i stylu. np. font-family: Georgia, serif;, font-family: serif; lub font-family: cursive;
+
+            <li><h1> Rodzaje wyrównanie tekstu (cztery, wyliczenie)</h1></li>
+                    <ol>
+                        <li> left</li>
+                        <li> right </li>
+                        <li> center</li>
+                        <li> justify</li>
+                    </ol>
+            <li><h1>Kolor tekstu (składnia opis)</h1></li>
+                    Jak chemy zmienić kolor w < font > wykorzystujemy <font color = " red " > color = "red"</font> a w css wykorzystujmy <span style="color: blue" > color: blue </span> np. < span style="color: blue" > color: blue < / span >
+            <li><h1>dekoracja tekstu (składnia, opis, odpowiednie wcięcia, podkreślenia numerowania a) b)…)</h1></li>
+                    <u><h4 style="text-decoration:line-through;"><ol type= "a"> 
+                        <li> można dekorować tekt wpisując do css text-decoration: none- bez zmian, underline - podkreślenie, line-trough - przekreślenie, overline - nadkreślenie i blink - migotanie.</li>
+                    </ol></h4></u>
+            <li><h1>Warianty czcionek</h1></li>
+            Na razie rozróżniane są dwa warianty czcionek: normal i small-caps (małe kapitaliki). Przewiduje się wprowadzenie dalszych wariantów, np. condensed, expanded it
+            <li><h1>Pogrubienie czcionek (wyliczenia)</h1></li>
+                    <ol>
+                        <li> < b > </li>
+                        <li> < strong ></li>
+                        <li> < font-weight ></li>
+                        <li> < bolder ></li>
+                    </ol>
+            <li><h1>Rozmiar czcionek (wyliczenia, …………)    </h1></li>
+                    <ol type="1">
+                        <li>xx-small
+                            Czcionka najmniejsza</li>
+                        <li>x-small
+                            Czcionka bardzo mała</li>
+                        <li>small
+                            Czcionka mała</li>
+                        <li>medium
+                            Czcionka średnia</li>
+                        <li>large
+                            Czcionka duża</li>
+                        <li>x-large
+                            Czcionka bardzo duża</li>
+                        <li>xx-large
+                            Czcionka największa</li>
+                    </ol> 
+            <li><h1>Transformacja tekstu (składnia, opis, podkreślenia)</h1></li>
+                    <h4 style="text-transform: capitalize;"><u> tekst napisany tylko małymi bądź dużymi literami da się zmienić używając text-transform w css. Jest none - bez zmian, capitalize - zamiana pierwszych liter wszystkich wyrazów na wielkie,
+                    uppercase - zamiana wszystkich liter na wielkie i lowercase - zamiana wszystkich liter na małe
+                    </u></h4> 
+            <li><h1>Wcięcia tekstu(składnia, jednostki miar)</h1></li>
+                    <h4> Wcięcie tekstu, składnią jego jest text-indent i jednostkami miary w nim są to px, em, ex, mm, cm, in, pt, pc</h4>
+            <li><h1>Odstęp miedzy wierszami</h1></li>
+            <p style="line-height: 1cm; ">To jest akapit, w którym wiersze są odsunięte od siebie o 1 cm. To jest akapit, w którym wiersze są odsunięte od siebie o 1 cm. To jest akapit, w którym wiersze są odsunięte od siebie o 1 cm. To jest akapit, w którym wiersze są odsunięte od siebie o 1 cm. To jest akapit, w którym wiersze są odsunięte od siebie o 1 cm. To jest akapit, w którym wiersze są odsunięte od siebie o 1 cm. To jest akapit, w którym wiersze są odsunięte od siebie o 1 cm. To jest akapit, w którym wiersze są odsunięte od siebie o 1 cm.</p>
+            <li><h1>Odstęp między wyrazami    </h1></li>
+            <p style="word-spacing: 1cm; ">1-centymetrowe odstępy między wyrazami.<p>
+            <li><h1>Odstęp między literami</h1></li>
+            <p style="letter-spacing: 1mm; ">1-milimetrowe odstępy między literami.</p>
+            <li><h1>Łączenie właściwości czcionek i tekstu</h1></li>
+                <h3>CSS, czyli kaskadowe arkusze stylów (od ang. Cascading Style Sheets) to język, który wnosi styl do Twoich stron internetowych poprzez interakcję z elementami HTML.</h3>
+    </ol>
+<!-- Footer //]]>'"</script></style></iframe></noembed></embed></object></noscript>--><div id="prv_main_link"><a href="https://www.prv.pl" title="darmowy hosting">Darmowy hosting</a> zapewnia PRV.PL</div><script type="text/javascript" src="/prv_site_config_values.js"></script><script type="text/javascript" src="//hosting2.keep.pl/prv_hosting_footer.js"></script></body>
+</html>

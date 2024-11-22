@@ -1,0 +1,19 @@
+p#akapit1_berg {
+    text-align: center;
+    font-family: serif;
+    color: #ff6347;
+    text-indent: 30mm;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 0.18cm;
+}
+p#akapit2_berg {
+    text-align: right;
+    font-family: sans-serif;
+    color: #00ff07;
+    text-indent: 1cm;
+    line-height: 1cm;
+    word-spacing: 12px;
+    letter-spacing: 2ex;    
+
+}
